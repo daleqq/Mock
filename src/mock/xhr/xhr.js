@@ -170,7 +170,7 @@ Util.extend(MockXMLHttpRequest.prototype, {
     // Sets the request method, request URL, and synchronous flag.
     open: function(method, url, async, username, password) {
         var that = this
-
+        async = typeof async === 'boolean' ? async : true,
         Util.extend(this.custom, {
             method: method,
             url: url,
