@@ -85,6 +85,8 @@ gulp.task("webpack", function( /*callback*/ ) {
         // console.log(err, stats)
         if (err) throw err
     })
+    gulp.src('./src/mock.d.ts')
+            .pipe(gulp.dest('./dist'))
 })
 
 // https://github.com/mrhooray/gulp-mocha-phantomjs

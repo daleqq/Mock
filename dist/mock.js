@@ -1164,7 +1164,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    _randomDate: function(min, max) { // min, max
 	        min = min === undefined ? new Date(0) : min
 	        max = max === undefined ? new Date() : max
-	        return new Date(Math.random() * (max.getTime() - min.getTime()))
+	        return new Date(min.getTime() + Math.random() * (max.getTime() - min.getTime()))
 	    },
 	    // 返回一个随机的日期字符串。
 	    date: function(format) {
