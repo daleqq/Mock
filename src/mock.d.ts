@@ -73,7 +73,7 @@ declare namespace mockjs {
         _randomDate(min?: Date, max?: Date): Date;
 
         // Random._formatDate
-        _formatDate(date: Date, format: String): String
+        _formatDate(date: Date, format: S): String
 
         // Random.date
         date(format?: S): S;

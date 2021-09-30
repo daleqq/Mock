@@ -1,5 +1,5 @@
 {
-  "name": "@daleqq/mockjs",
+  "name": "@daleqq/mockjs-fork",
   "title": "Mock.js",
   "description": "生成随机数据 & 拦截 Ajax 请求",
   "version": "1.1.1",
